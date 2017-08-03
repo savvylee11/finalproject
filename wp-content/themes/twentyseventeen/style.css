@@ -1324,7 +1324,7 @@ a:hover .nav-title,
 }
 
 .navigation-top a {
-	color: #a5a3a3;
+	color: #000;
 	font-weight: 600;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
@@ -1897,7 +1897,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .page .panel-content .entry-title,
 .page-title,
 body.page:not(.twentyseventeen-front-page) .entry-title {
-	color: red;
+	color: #000;
 	font-size: 14px;
 	font-size: 0.875rem;
 	font-weight: 800;
@@ -4279,8 +4279,4 @@ object {
 	.site-footer {
 		padding: 0;
 	}
-}
-
-.entry-title {
-	color: red;
 }

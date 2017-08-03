@@ -31,7 +31,7 @@
 		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
 
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
-			<div style="background: #cccccc; box-shadow: 0px 0px 20px 5px #929292;" class="navigation-top">
+			<div class="navigation-top">
 				<div class="wrap">
 					<?php get_template_part( 'template-parts/navigation/navigation', 'top' ); ?>
 				</div><!-- .wrap -->

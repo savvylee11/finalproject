@@ -13,7 +13,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php if (get_the_ID() == 10): ?>
+	<?php if (get_the_ID() == 23): ?>
 			<div style="width: 100%;
 						height: 150px;
 						background: url('http://i.imgur.com/zIX04Sv.jpg') no-repeat;
@@ -21,7 +21,7 @@
 			</div>
 			<div style="width: 100%;
 						background: url('http://i.imgur.com/vpsBmUF.jpg');
-						background-size: contain;">
+						background-size: 80%;">
 				<div style="width: 500px; margin-left: 25%;">
 					<p><?php the_content(); ?></p>
 				</div>

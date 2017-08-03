@@ -16,9 +16,9 @@
 
 		<div class="site-branding-text">
 			<?php if ( is_front_page() ) : ?>
-				<h1 class="site-title"><a style= "color: #0f085f; text-shadow: -1px 0 #fafafa, 0 1px #f1f1f1, 1px 0 #f1f1f1, 0 -1px #f1f1f1;" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h1 class="site-title"><a class="site-title" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<?php else : ?>
-				<p class="site-title"><a style= "color: #0f085f; text-shadow: -1px 0 #fafafa, 0 1px #f1f1f1, 1px 0 #f1f1f1, 0 -1px #f1f1f1;" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 			<?php endif; ?>
 
 			<?php
