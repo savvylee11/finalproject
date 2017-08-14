@@ -13,6 +13,7 @@
 ?>
  <!--added background image for final project template -->
  <!-- added functionality for the background photo to repeat with text and cover the avalible area on the page -->
+ <!-- Identifided the page that would be the final project template and put an if statement for it to hold all the custom post types -->
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php if (get_the_ID() == 23): ?>
 			<div style="width: 100%;
