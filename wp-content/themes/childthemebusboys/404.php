@@ -18,8 +18,9 @@ get_header(); ?>
 
 			<section class="error-404 not-found">
 				<header class="page-header">
-				// added colors and new laungage to customize the 404 page
-					<h1 style="color: #4cc167;" class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'twentyseventeen' ); ?></h1>
+	<!-- added colors and new laungage to customize the 404 page -->
+					<h1 style="color: #4cc167;" class="page-title"<?php _e( 'Oops! That page can&rsquo;t be found.', 'twentyseventeen' ); ?></h1>
+					<!-- added a new photo to the 404 page -->
 				<img src="http://i.imgur.com/c3EsGRf.png" 
 				width="2000"
 				height="5000" />
