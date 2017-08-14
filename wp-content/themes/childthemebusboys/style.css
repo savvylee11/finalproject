@@ -18,7 +18,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 .site-title{
 	color: #fff;
 }
-
+/* changed background color to header to appear darker */
 .custom-header{
 	background-color:#000;
 }
