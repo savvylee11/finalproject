@@ -11,7 +11,7 @@
  */
 
 ?>
-
+ <!--added background image for final project template -->
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php if (get_the_ID() == 23): ?>
 			<div style="width: 100%;
