@@ -22,7 +22,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 .custom-header{
 	background-color:#000;
 }
-
+/* changed opacity of header to be less bright */
 .wp-custom-header img{
 	opacity:0.7;
 }
