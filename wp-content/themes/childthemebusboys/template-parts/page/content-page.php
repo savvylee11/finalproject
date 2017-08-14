@@ -12,6 +12,7 @@
 
 ?>
  <!--added background image for final project template -->
+ <!-- added functionality for the background photo to repeat with text and cover the avalible area on the page -->
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php if (get_the_ID() == 23): ?>
 			<div style="width: 100%;
