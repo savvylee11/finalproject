@@ -26,7 +26,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 .wp-custom-header img{
 	opacity:0.7;
 }
-
+/* added box shadow to menu bar */
 .navigation-top{
     box-shadow: 0px 3px 15px 0px #aaa;
 }
