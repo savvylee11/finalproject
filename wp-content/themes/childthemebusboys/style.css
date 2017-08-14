@@ -14,7 +14,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 	text-transform: uppercase;
 }
 
-
+/* changed color to site titles */
 .site-title{
 	color: #fff;
 }
