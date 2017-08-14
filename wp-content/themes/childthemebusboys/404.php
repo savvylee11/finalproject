@@ -29,6 +29,7 @@ get_header(); ?>
 				style="margin-top: 212px;
 				       color: #8a2adc;">
 					<p><?php _e( 'It looks like this page is still a caterpillar. Maybe try a search?', 'twentyseventeen' ); ?></p>
+					<!-- added new language and coors for the 404 page -->
 
 					<?php get_search_form(); ?>
 
